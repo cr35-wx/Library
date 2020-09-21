@@ -1,0 +1,176 @@
+* {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+header {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(70, 70, 70);
+}
+
+#newbook {
+  text-align: center;
+}
+
+.newbook {
+    font-size: 35px;
+    border: 1px solid rgb(150, 210, 240);
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(150, 210, 240);
+    color: rgb(240, 240, 240);
+    width: 20%;
+    padding: 5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 10);
+}
+
+.newbookform {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    display: none;
+}
+
+.newbookformcontent {
+    width: 500px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, .9);   
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(200, 200, 200);
+    color: rgb(50, 50, 50);
+    font-size: 18px;
+    font-weight: 900;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 10);
+	transition: .5s ease-in-out;
+}
+
+.close {
+    position: absolute;
+    top: 2%;
+    right: 4%;
+    font-size: 40px;
+    cursor: pointer;
+    transform: rotate(45deg);
+    color: red;
+}
+
+form {
+    text-align: left;
+}
+
+form input {
+    display: block;
+    margin: 0px auto 10px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 500px;
+    height: 35px;
+    font-size: 20px;
+}
+
+#check {
+  width: 50px;
+  height: 35px;
+  margin-left: 20px;
+}
+
+#submitbook {
+    position: absolute;
+    right: 50px;
+    bottom: 60px;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    background-color: lime;
+    width: 120px;
+    height: 35px;
+    padding: 5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 10);
+    transition: lime 0.2s ease-in-out;
+}
+
+#submitbook:hover,
+#submitbook:focus {
+	cursor: pointer;
+	background-color: #9b9b9b;
+}
+
+#container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.templatediv {
+    height: 420px;
+    width: 270px;    
+    margin-left: 15px;
+    margin-right: 15px;
+    background: rgb(119, 253, 177);
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 10px;
+    color: rgb(50, 50, 50);
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-weight: 900;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 10);
+    margin-bottom: 15px;
+}
+
+.templatediv:hover{ 
+    transform: scale(1.075);
+	transition: transform 0.2s ease;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.18);
+}
+
+.buttons {
+   height: 50px;
+   padding-top: 50px;
+}
+
+.deletebutton {
+    height: 60px;
+    width: 100px;
+    margin-right: 10px;
+    font-size: 20px;
+    background-color: rgb(245, 89, 89);
+    border: 0px solid grey;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 10);
+    outline: none;
+}
+
+.deletebutton:hover {
+    transform: scale(1.050);
+	transition: transform 0.2s ease;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.18);
+}
+
+.readcheckbutton {
+    height: 60px;
+    width: 100px;
+    margin-left: 10px;
+    font-size: 20px;
+    background-color: rgb(200, 200, 200);
+    border: 0px solid grey;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 10);
+    outline: none;
+}
+
+.readcheckbutton:hover {
+    transform: scale(1.050);
+	transition: transform 0.2s ease;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.18);
+}
+
